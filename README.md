@@ -1,10 +1,10 @@
-LAB 1 
+# LAB 1 
 
 The BSE department at ALU has partnered with an AI-based firm that utilizes satellite data to predict weather changes, providing Africa with valuable insights and solutions to optimize agricultural practices. They are collaborating with ALU to help Linux skills extract insights from the vast amounts of satellite data collected. 
 
 Your group will work with the startup to extract insights from their huge dataset on GitHub.
 
-	# Task 1: Clean the repository after cloning it to your sandbox
+	### Task 1: Clean the repository after cloning it to your sandbox
  
 Before we can start working on the analysis tasks, some cleanup is required.
 
@@ -14,7 +14,7 @@ deleted/removed.
 3. The entire file satelite_temperature_data.csv should be inside the raw_data directory as this is the raw data obtained from the satellites 
 4. The analyzed_data directory will contain new files that will contain the analysis conducted in Step 2
 
-   	# Task 2: Analyze the data with the use of Linux skills
+   	### Task 2: Analyze the data with the use of Linux skills
 
 You will use different Linux commands like cat, cp, grep, cut, sort, etc to perform analysis on the satellite dataset.
 
