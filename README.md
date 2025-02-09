@@ -1,26 +1,21 @@
-# Guidelines
+LAB 1 
 
-## Before You Start
+The BSE department at ALU has partnered with an AI-based firm that utilizes satellite data to predict weather changes, providing Africa with valuable insights and solutions to optimize agricultural practices. They are collaborating with ALU to help Linux skills extract insights from the vast amounts of satellite data collected. 
 
-Follow these steps to prepare for your work:
+Your group will work with the startup to extract insights from their huge dataset on GitHub.
 
-1. **Fork the Repository**  
-   Click on the **Fork** button at the top of the repository page. This creates a copy of the repository for your group.
+	Task 1: Clean the repository after cloning it to your sandbox
 
-2. **Add Collaborators**  
-   Once the repository is forked:
-   - Go to **Settings** > **Collaborators and teams** > **Add people**.
-   - Invite all group members as collaborators.
+Before we can start working on the analysis tasks, some cleanup is required. 
+● The directory with the name rename_directory should be renamed to analyzed_data 
+● Files named dummy, dummy-2, and dummy-3.txt are dummy and useless so they should be 
+deleted/removed. 
+● The entire file satelite_temperature_data.csv should be inside the raw_data directory as this is the raw data obtained from the satellites 
+● The analyzed_data directory will contain new files that will contain the analysis conducted in Step 2
 
----
+	Task 2: Analyze the data with the use of Linux skills
 
-## Working on the Project
-
-After forking and setting up collaborators, follow these steps:
-
-1. **Clone the Repository**  
-   Clone your forked repository to your local machine:
-   ```bash
-   git clone https://github.com/your-username/project-name.git
-   ```
-
+You will use different Linux commands like cat, cp, grep, cut, sort, etc to perform analysis on the satellite dataset. 
+● Extract the top 10 highest temperatures from satelite_temperature_data.csv and save the result in analyzed_data under the name highest_temp.csv 
+● Extract the entire data from a country of your choice from satelite_temperature_data.csv and save the result in descending order of humidity (highest to lowest). Save the output in the analyzed_data directory under the name of humidity_data_$country_name.csv The $country_name represents the country name that was selected. 
+● OPTIONAL Task (Bonus): Write a shell script to extract these two insights from the file and save the outputs in the directory
