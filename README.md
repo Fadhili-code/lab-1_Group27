@@ -14,7 +14,7 @@ deleted/removed.
 3. The entire file satelite_temperature_data.csv should be inside the raw_data directory as this is the raw data obtained from the satellites 
 4. The analyzed_data directory will contain new files that will contain the analysis conducted in Step 2
 
-   	Task 2: Analyze the data with the use of Linux skills
+   	**Task 2: Analyze the data with the use of Linux skills**
 
 You will use different Linux commands like cat, cp, grep, cut, sort, etc to perform analysis on the satellite dataset.
 
